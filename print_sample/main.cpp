@@ -3,8 +3,6 @@
 #include <tchar.h>
 #include <iostream>
 
-//int WINAPI _tWinMain(HINSTANCE hInstance , HINSTANCE hPrevInstance ,
-//            LPTSTR lpCmdLine , int nCmdShow ) {
 int main() {
     wchar_t defalut_printer[256];
     unsigned long size = _countof(defalut_printer);
